@@ -1,0 +1,26 @@
+[project]
+name = "phase-retrieval"
+version = "0.1.0"
+description = "Fourier transformer and UNet models for phase retrieval from diffraction patterns"
+authors = [{ name = "Your Name" }]
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "torch>=2.1",
+    "torchvision>=0.16",
+    "torchaudio>=2.1",
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+    "tqdm>=4.66",
+    "scikit-image>=0.21",
+    "opencv-python>=4.8",
+    "pillow>=10.0",
+    "pyyaml>=6.0",
+    "h5py>=3.9",
+    "einops>=0.7",
+]
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,13 @@
+torch<2.3,>=1.10
+torchvision<0.18,>=0.11
+torchaudio<2.3,>=0.10
+numpy
+scipy
+matplotlib
+tqdm
+scikit-image
+opencv-python
+pillow
+pyyaml
+h5py
+einops

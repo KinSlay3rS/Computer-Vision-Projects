@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: phase-retrieval
+Version: 0.1.0
+Summary: Fourier transformer and UNet models for phase retrieval from diffraction patterns
+Author: Your Name
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: torch<2.3,>=1.10
+Requires-Dist: torchvision<0.18,>=0.11
+Requires-Dist: torchaudio<2.3,>=0.10
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+Requires-Dist: scikit-image
+Requires-Dist: opencv-python
+Requires-Dist: pillow
+Requires-Dist: pyyaml
+Requires-Dist: h5py
+Requires-Dist: einops
